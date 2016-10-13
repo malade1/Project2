@@ -1,0 +1,95 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+
+/*==== BASE STYLES === */
+
+html {
+  font-size: 1.125em;   /* 18px/16*/
+  line-height: 1.222em;   /* 22px/18*/ 
+  background-color: beige;
+  color: #222;
+  vertical-align: centre;
+}
+body{
+  background-color: 78A8FF;
+ font-family: Helvetica, Arial, sans-serif;
+}
+header {
+  text-align: center;
+  background-color: #8CCAD5;
+  margin-bottom: 1.5em;
+}
+
+nav li {
+  list-style-type: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+li{
+   
+  padding-bottom: 0.667em; /* 10px = half gridline*/
+}
+
+h1, h2 {
+  font-size: 1.556em; /* 36px */
+  line-height: 1.286em;  /* 36px@ 28px */ 
+  color: purple;
+ }
+  main {
+    margin: auto 1em auto 1em;
+  }
+    img {
+      width: 100%;
+      height: auto;
+  }
+}
+   footer {
+   color: blue;
+ }
+    li:last-child {
+  padding-bottom: 0;
+ } 
+  section ul {
+  border-top: thin solid black;
+}
+
+ /*==== LAYOUT STYLES === */
+
+  @media screen and (min-width: 61.875em) {
+  #page {
+   margin: 0;
+  }
+ }
+  img, audio {
+ border: 0.444em solid blue;
+ }
